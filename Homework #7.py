@@ -98,13 +98,22 @@
 ##
 ##main()
 
-#4 !!!!!!!!!!!!!!!!!!!!
+##4 !!!!!!!!!!!!!!!!!!!!
 
 ##def main():
-##    number = 1
-##    while number < 100:
-##        number = number + (number + 1)
-##        print(number)
+##    number1 = 0
+##    number2 = 1
+##    count = 0
+##    n = int(input("Enter a value: "))
+##    
+##    while count < n-1:
+##        number = number1 + number2
+##        number1 = number2
+##        number2 = number
+##        count = count + 1
+##        
+##    print(number ,"is the ", n, "number of the Fibonacci sequence.")
+##        
 ##main()
 
 #5
